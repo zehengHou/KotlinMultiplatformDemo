@@ -61,3 +61,4 @@ node_modules/
 *.rej
 *.patch
 *.diff
+*.kotlin/sessions
