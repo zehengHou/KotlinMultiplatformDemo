@@ -1,0 +1,64 @@
+# Kotlin Multiplatform 项目常见忽略项
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+*.gradle*
+!gradle/wrapper/gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# iOS
+*.xcodeproj
+DerivedData/
+*.dSYM
+*.hmap
+*.ipa
+*.app
+*.xcuserdatad
+
+# macOS
+.DS_Store
+
+# JetBrains Rider
+*.sln
+*.suo
+*.user
+*.userosscache
+
+# Node
+node_modules/
+
+# General
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.swa
+*.swi
+*.swm
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
+*.kotlin
